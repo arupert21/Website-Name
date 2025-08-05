@@ -1,0 +1,78 @@
+<!-- This tells the browser you're using HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- This sets the character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- This makes your page responsive on phones and tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- This sets the title that shows in the browser tab -->
+  <title>My First Website</title>
+
+  <!-- Internal CSS styles go here (for appearance) -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 0;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    footer {
+      background-color: #ddd;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- This is the top of the website -->
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Learning HTML is fun!</p>
+  </header>
+
+  <!-- Main content goes here -->
+  <main>
+    <h2>About Me</h2>
+    <p>Hi! I'm learning how to build websites using HTML, CSS, and JavaScript.</p>
+
+    <!-- Button with JavaScript interaction -->
+    <button onclick="sayHello()">Click Me!</button>
+  </main>
+
+  <!-- Bottom section of the page -->
+  <footer>
+    <p>© 2025 My First Website. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for interactivity -->
+  <script>
+    function sayHello() {
+      alert("Thanks for clicking!");
+    }
+  </script>
+</body>
+
+</html>
